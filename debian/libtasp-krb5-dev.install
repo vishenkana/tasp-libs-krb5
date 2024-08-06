@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+include/tasp usr/include

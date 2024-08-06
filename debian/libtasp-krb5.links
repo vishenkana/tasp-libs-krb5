@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+${LIB_DIR}/libtasp-krb5.so.1 ${LIB_DIR}/libtasp-krb5.so

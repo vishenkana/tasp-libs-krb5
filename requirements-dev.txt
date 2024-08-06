@@ -1,0 +1,2 @@
+libtasp-common-dev
+libkrb5-dev

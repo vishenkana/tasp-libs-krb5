@@ -1,0 +1,23 @@
+Source: libtasp-krb5
+Section: libs
+Priority: optional
+Maintainer: dummy
+Standards-Version: 4.5.1
+
+Package: libtasp-krb5-dev
+Section: libdevel
+Architecture: amd64
+Multi-Arch: same
+Depends: libtasp-krb5 (= ${binary:Version}), ${misc:Depends}
+Description: Software package of technical analysis Kerberos - development
+ Library for connecting to the PostgreSQL DBMS and to HTTP services using 
+ Kerberos authentication of the software package of technical analysis
+ project.
+
+Package: libtasp-krb5
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software package of technical analysis Kerberos libraries
+ Library for connecting to the PostgreSQL DBMS and to HTTP services using 
+ Kerberos authentication of the software package of technical analysis
+ project.

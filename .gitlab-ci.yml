@@ -1,0 +1,3 @@
+include:
+  - project: 'dev35/pkta/common/ci'
+    file: 'ci-base.yml'

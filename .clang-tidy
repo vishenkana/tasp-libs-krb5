@@ -1,0 +1,10 @@
+Checks: >
+  *,
+  -llvmlibc-*,
+  -llvm-header-guard,
+  -modernize-use-trailing-return-type,
+  -fuchsia-default-arguments-calls,
+  -fuchsia-default-arguments-declarations
+WarningsAsErrors: ''
+HeaderFilterRegex: '/(src|include)'
+AnalyzeTemporaryDtors: false
